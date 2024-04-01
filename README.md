@@ -25,7 +25,7 @@
 ## 💣 실행 전 주의 사항
 - https://chromedriver.chromium.org/downloads 에서 크롬 버전에 맞는 Chrome driver를 설치해야 합니다.
 - 크롬 버전 확인하는 법: 크롬실행-> 브라우저 오른쪽 상단의 점 세개 클릭-> 도움말-> Chrome 정보
-- 다운로드한 Chrome driver 압축을 풀고 CGV IMAX Movie reservation program.py과 같은 디렉토리에 위치시켜야 합니다.
+- 다운로드한 Chrome driver 압축을 풀고 News Keyword Search.py과 같은 디렉토리에 위치시켜야 합니다.
 - Selenium과 Beautifulsoup4,openpyxl을 설치해야 합니다.
   
   prompt실행 후
