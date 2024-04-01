@@ -6,11 +6,10 @@ from selenium.webdriver.common.by import By
 from datetime import datetime
 import pandas as pd
 from openpyxl import load_workbook
-# 셀레니움, 뷰티불숩,pandas설치해야함 openpyxl
+
 # 네이버 검색창에 검색하고 싶은 뉴스의 키워드로 검색한다.
-# 뉴스를 관련도순 또는 최신순 보기를 선택할 수 있다.
 # 알고 싶은 키워드를 크롤링하여 키워드와 뉴스 10개를 크롤링하여 엑셀에 정리 해주는 프로그램
-# 엑셀에는 1~10순서, 뉴스 제목, 언론사, 게시 일자.
+
 
 Keyword = input("검색할 뉴스의 키워드를 말해주세요: ")
 prefer = int(input("뉴스를 관련도순으로 볼려면 1 최신순으로 볼려면 2를 입력하세요: "))
